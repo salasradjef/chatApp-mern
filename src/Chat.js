@@ -64,12 +64,11 @@ function Chat(){
                 <IconButton>
                     <InsertEmoticonIcon/>
                 </IconButton>
-
-                    <div className="chat__inputbar">
-                            
-                        <input type="text" placeholder="Search for a person"></input>
-                            
-                    </div>
+                <form>  
+                    <input type="text" placeholder="Aa"></input>
+                    <button type="submit">send</button>
+                </form>
+                    
                 <IconButton>    
                     <MicIcon/>
                 </IconButton>
